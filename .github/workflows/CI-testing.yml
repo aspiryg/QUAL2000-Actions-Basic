@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v4
       # step-2: set up Node.js environment on the runner
       - name: Set up Node.js
-        uses: actions/setup=node@v4
+        uses: actions/setup-node@v4
         with:
           node-version: "22"
       # step-3: install the repos's dependencies from package.json
