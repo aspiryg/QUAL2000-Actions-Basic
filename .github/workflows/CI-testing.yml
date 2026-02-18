@@ -4,9 +4,9 @@ name: CI and Testing
 # Trigger ro run run workflow
 on:
   push:
-    branches: [master, mainm **]
+    branches: master
   pull_request:
-    branches: [master]
+    branches: master
 
 
 # job to run
